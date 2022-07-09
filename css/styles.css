@@ -365,6 +365,7 @@ img {
     bottom: 0;
     justify-content: center;
     align-items: center;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-text {
@@ -580,10 +581,6 @@ img {
     margin-right: 10px;
 }
 
-.icon-team:not(:last-child) {
-    margin-right: 10px;
-}
-
 .go-social {
     display: block;
     width: 100%;
@@ -593,6 +590,10 @@ img {
     padding: 12px;
     fill: rgba(175, 177, 184, 1);
     transition-property: fill, background-color;
+}
+
+.icon-team:not(:last-child) {
+    margin-right: 10px;
 }
 
 .team-sociale {
@@ -654,6 +655,7 @@ img {
     justify-content: center;
     border: 1px solid #AFB1B8;
     transition-property: fill, border-color;
+    border-radius: 4px;
 }
 
 .icon-customer {
